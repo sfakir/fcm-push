@@ -1,16 +1,22 @@
 fcm-push
 ========
+
+
+This is a fork of (fcm-push)[https://github.com/nandarustam/fcm-push] to enable to use http instead of https to send firebase push notifications.
+Reason? 
+We use the client on a server where the proxy only allows http. Outside we proxy the request again to https.
+
 A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS
 
 ## Installation
 
 Via [npm][1]:
 
-    $ npm install fcm-push
+    $ npm install fcm-push-legacy-http
 
 ## Usage
 
-    var FCM = require('fcm-push');
+    var FCM = require('fcm-push-legacy-http');
 
     var serverKey = '';
     var fcm = new FCM(serverKey);

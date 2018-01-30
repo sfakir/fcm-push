@@ -19,7 +19,7 @@
     "android",
     "ios"
   ],
-  "author": "Rasmunandar Rustam <nandar.rustam@gmail.com>",
+  "author": "Simon Fakir <simon@fakir-it.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sfakir/fcm-push/issues"
